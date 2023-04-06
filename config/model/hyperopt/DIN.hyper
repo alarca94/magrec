@@ -1,0 +1,5 @@
+choice:
+  att_hidden_size: [[64, 16], [128, 32], [64, 32]]
+  dnn_use_bn: [True, False]
+range:
+  dnn_dropout: [{from: 0.1, to: 0.5, in: 5, type: float}]

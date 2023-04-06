@@ -1,0 +1,7 @@
+wgat_layers: 3
+gru_layers: 3
+att_heads: 8
+droprate: 0.0
+dnn_dropout: 0.0
+use_bn: True
+gpus: null

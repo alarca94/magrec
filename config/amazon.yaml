@@ -1,0 +1,22 @@
+dataset:
+  name: amazon
+  folder: amazon
+  min_win_size: 5
+  max_win_size: 80
+  ctr_ratio_range: [0.2, 0.5]
+  split_type: user_temporal
+  kcore: 5
+  rebuild: False
+  use_seq: True
+hyperoptimization:
+#  gpu_per_trial: 0.5
+#  cpu_per_trial: 5
+  hyperopt_alg: tpe
+  ho_max_evals: 25
+optimization:
+  batch_size: 512
+  n_epochs: 10
+  early_stopping_patience: null
+evaluation:
+  val_metric: val_auc
+  metrics: [auc, logloss, acc, pcoc]

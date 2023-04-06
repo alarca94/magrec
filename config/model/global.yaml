@@ -1,0 +1,5 @@
+emb_dim: 64
+dnn_hidden_units: [128, 64]
+dnn_activation: relu
+optim: adam
+lr: 1.0e-3

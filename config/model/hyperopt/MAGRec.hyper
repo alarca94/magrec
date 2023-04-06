@@ -1,0 +1,9 @@
+choice:
+  n_heads: [2, 4, 8]
+  gat_layers: [1, 2]
+  gated_layers: [1, 2, 3]
+  use_long_interest: [True, False]
+  use_short_interest: [True, False]
+  use_bn: [True, False]
+range:
+  droprate: [{from: 0.1, to: 0.5, in: 5, type: float}]

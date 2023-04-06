@@ -1,0 +1,6 @@
+choice:
+  gru_type: [AUGRU, AGRU, GRU]
+  att_hidden_units: [[64, 16], [128, 32], [64, 32]]
+  use_bn: [True, False]
+range:
+  dnn_dropout: [{from: 0.1, to: 0.5, in: 5, type: float}]

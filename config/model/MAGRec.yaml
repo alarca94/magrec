@@ -1,0 +1,20 @@
+domain_dim: 128
+use_undirected: True
+use_bn: True
+use_domain_info: True
+normalize_domains: True
+d_option: 2
+droprate: 0.0
+dnn_dropout: 0.0
+gpus: null
+
+# Long interest hyper-params
+use_long_interest: True
+n_heads: 2
+gat_layers: 1
+cluster_ks: [32, 10, 1]
+tau: 0.8
+
+# Short interest hyper-params
+use_short_interest: True
+gated_layers: 2
